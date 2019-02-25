@@ -21,7 +21,6 @@
 				<li>Ứng dụng có chế độ để luyện tập từ vựng đã học.</li>
 				<li>Ứng dụng có hiển thị ngữ pháp cơ bản.</li>
 				<li>Ứng dụng có tham khảo trang web https://600tuvungtoeic.com</li>
-				<img src="https://user-images.githubusercontent.com/43242684/53294988-eba54b00-3823-11e9-985e-eefba5511b5a.png"></img>
 			</ul>
 			<h2>
 			Các công nghệ có thể dùng đến
