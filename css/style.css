@@ -3,14 +3,17 @@ body {
 	font: 12px Arial, Helvetica, sans-serif;
 }
 #wrapper {
-	width: 940px;
+	width: auto;
 	margin: 0px auto;
 	padding: 0px 60px;
 	padding-bottom: 10px;
 	background-color: #ffffff;
 }
+.jumbotron {
+	background-color: #fcfdfe;
+}
 /*--------------------------------------------MENU--------------------------*/
-#wrapper #header .menu  {
+/*#wrapper #header .menu  {
 	background: url(../image/menu-left.jpg) left top no-repeat;
 }
 	#wrapper #header .menu .right  {
@@ -43,4 +46,4 @@ body {
 		width: 1px;
 		height: 45px;
 		background-color: #d2d2d2;
-	}
+	}*/

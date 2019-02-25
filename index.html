@@ -1,58 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>TOEIC Fun</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  <title>TOEIC FUN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
 <div id="wrapper">
 	<!--Bắt đầu header-->
 	<div id="header">
 		<div class="logo">
-			<img src="image/logo.jpg">
+			<!-- <img src="image/logo.jpg" class="img-fluid" alt="Responsive image"> -->
 		</div>
 		<!--bắt đầu menu-->
-		<div class="menu">	
-				<div class="right">
-					<div class="content">
-						<ul>
-							<li><a href="">TRANG TRỦ</a></li>
-							<li class="line-w-45px"></li>
-							<li><a href="">HỌC TỪ VỰNG</a></li>
-							<li class="line-w-45px"></li>
-							<li><a href="">KIỂM TRA TỪ </a></li>
-							<li class="line-w-45px"></li>
-							<li><a href="">NGỮ PHÁP TOEIC</a></li>
-							<li class="line-w-45px"></li>
-						</ul>
-					</div>
-				</div>	
-			</div>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand" href="#">TOEIC FUN</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">TRANG CHỦ</a></li>
+		        <li><a href="#">HỌC TỪ VỰNG</a></li>
+		        <li><a href="#">LUYỆN TẬP</a></li>
+		        <li><a href="#">NGỮ PHÁP TOEIC</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 		<!--kết thúc menu-->
-		<div>
-			<b style="font-size: 35px;color: red;margin-left: 175px">600 Từ Vựng Luyện Thi TOEIC</b>
-			<img src="https://600tuvungtoeic.com/template/english/images/600-tu-vung-toeic.gif" alt="600 tu vung toeic" class="img-responsive">
-			<p style="font-size: 15px">Bộ từ luyện thi TOEIC gồm 600 từ vựng tiếng anh thiết yếu nhất sẽ là nền tảng để giúp bạn đạt được những điểm cao trong kỳ thi TOEIC.
-			</p>
-			<span style="font-size: 15px;color: blue">Với bộ 600 từ vựng này,  bạn hoàn toàn có thể yên tâm là mình sẽ học những từ quan trọng nhất bởi lẽ những từ này đã được lựa chọn kĩ lưỡng từ những sách và tài liệu nổi tiếng nhất về TOEIC:</span>
-			<div class="info">
-				<img src="https://600tuvungtoeic.com/template/english/images/600-tu-vung-luyen-thi-toeic.jpg" alt="600 tu vung luyen thi toeic" class="img-responsive" style="float:left;">
-				<p style="font-size: 15px">Tại sao bạn lại học "600 Từ Vựng TOEIC" này ?
-Trong rất nhiều tài liệu và sách luyện thi TOEIC bạn phân vân không biết tài liệu nào tốt cho bạn thì đây chính là kim chỉ nam cho bạn.
-Đây chính là giải pháp bạn mà chúng tôi chắc chắn rằng bạn đang tìm kiếm. Bộ từ vựng này giúp bạn tiết kiệm thời gian quý giá của mình bằng cách tập trung vào 600 từ thiết yếu bạn cần nắm rõ để ghi điểm cao trong kì thi TOEIC.</p>
-			</div>
-		</div>
 	</div>
-	<!--Kết thúc header-->
+	<!--Kết thúc header-->	
+	<!--Bắt đầu thông tin-->
+	<div class="jumbotron">
+	  <div class="container text-center">
+	    <h1 style="color: red;">600 Từ Vựng Luyện Thi TOEIC</h1>
+	    <img src="https://600tuvungtoeic.com/template/english/images/600-tu-vung-toeic.gif" alt="600 tu vung toeic" class="img-responsive">
+	    <p style="font-size: 15px;">Bộ từ luyện thi TOEIC gồm 600 từ vựng tiếng anh thiết yếu nhất sẽ là nền tảng để giúp bạn đạt được những điểm cao trong kỳ thi TOEIC.</p>
+	  </div>
+	</div>
+	<!--Kết thúc thông tin-->
 	<!--Bắt đầu nội dung-->
 	<div id="content">
-		
+		<div class="container-fluid bg-3 text-center">    
+  <h3 style="color: blue;">Bộ Từ Vựng TOEIC</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Contracts</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/contracts.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Marketing</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/marketing.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Warranties</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/warranties.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Business Planning</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/business_planning.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Conferences</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/conferences.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Computers And The Internet</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/computers_and_the_internet.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Office Technology</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/office_technology.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Office Procedures</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/office_procedures.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Electronics</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/electronics.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Correspondence</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/correspondence.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Job And Recruitment</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/job_ads_and_recruitment.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Apply and Interviewing</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/apply_and_interviewing.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Hiring and Training</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/hiring_and_training.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Salaries And Benefits</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/salaries_and_benefits.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Promotion</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/promotion.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Shopping</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/shopping.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Order Supplies</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/ordering_supplies.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Shipping</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/shipping.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Invoices</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/invoices.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Inventory</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/inventory.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Banking</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/banking.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Accounting</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/accounting.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Investments</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/investments.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Taxes</p>
+      <img src="https://600tuvungtoeic.com/template/english/images/lesson/taxes.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+<br>
 	</div>
 	<!--Kết thúc nội dung-->
 	<!--Bắt đầu chân trang-->
 	<div id="footer">
-		
+		<footer class="container-fluid text-center">
+  			<p>Minh</p>
+		</footer>
 	</div>
 	<!--Kết thúc chân trang-->
 </div>
