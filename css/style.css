@@ -12,6 +12,10 @@ body {
 .jumbotron {
 	background-color: #fcfdfe;
 }
+.image:hover{
+	opacity: 0.6;
+  	filter: alpha(opacity=60); 
+}
 /*--------------------------------------------MENU--------------------------*/
 /*#wrapper #header .menu  {
 	background: url(../image/menu-left.jpg) left top no-repeat;
