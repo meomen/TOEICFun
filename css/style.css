@@ -8,7 +8,10 @@ body {
 	margin: 0px auto;
 	padding: 0px 60px;
 	padding-bottom: 10px;
-	background-color: #ffffff;
+	background-color: #dfe4ea;
+}
+.row-topic {
+	margin-top: 2.8em;
 }
 .jumbotron {
 	background-color: #fcfdfe;
@@ -31,41 +34,14 @@ footer p {
 }
 /*---sologan----*/
 #sologan {
-	font-size: 0.8em;
-	color: #8997a0;
+	font-style: bold;
+	margin-top: 2em;
+	font-size: 1em;
+	color: #c23616;
+	font-family: 'Noto Serif', serif;
 }
-/*--------------------------------------------MENU--------------------------*/
-/*#wrapper #header .menu  {
-	background: url(../image/menu-left.jpg) left top no-repeat;
+/*-----title-topic-----tên các chủ đề*/
+.title-topic{
+	font-family: 'Itim', cursive;
+	font-size: 2em;
 }
-	#wrapper #header .menu .right  {
-		background: url(../image/menu-right.jpg) right top no-repeat;
-	}
-		#wrapper #header .menu .right .content {
-			background: url(../image/menu-content.jpg) left top repeat-x;
-			height: 45px;
-			margin: 0px 12px;
-		} 
-		#wrapper #header .menu  ul{
-			position: relative;
-		}
-		#wrapper #header .menu  ul li{
-			float: left;
-		}
-		#wrapper #header .menu  ul li a{
-			display: block;
-			padding: 0px 22px;
-			/*line-height: 45px;*/
-/*			font: bold 14px/45px Arial,Helvetica,sans-serif;
-			color: #000043;
-			text-transform: uppercase;
-		}
-		#wrapper #header .menu  ul li a:hover{
-				color: #363;
-				text-decoration: underline;
-		}
-	.line-w-45px {
-		width: 1px;
-		height: 45px;
-		background-color: #d2d2d2;
-	}*/*/
