@@ -5,34 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel=icon href=image/favicon.jpg sizes="16x16" type="image/jpg">
-  <link rel="stylesheet" type="text/css" href="css/styletopic.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styletopic.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style type="text/css">
-  		body {
-  			background: #eeeeee;
-  		}
-  		/*#wrapper {
-			width: 1200px;
-			margin: 80px auto;
-			padding: 0px 60px;
-			padding-bottom: 10px;
-			background: #ffffff;
-		}*/
-		.tu {
-			text-align: center;
-			color: red;
-		}
-		.flex-container {
-			display: flex;
-		}
-		.flex-container>div{
-			margin: 20px;
-		}
-  </style>
-</head>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
+  </head>
+
 <body>
 	<div id="wrapper">
 		<!--bắt đầu menu-->
@@ -59,21 +39,55 @@
 		  </div>
 		</nav> 
 		<!--kết thúc menu-->
-		<!--Bắt đầu nội dung-->
+		<!-- drop-down-list -->
+		<div class="drop-down-list-topic" align="center">
+			<button  type="button" class="btn btn-success button-previous"><span class="glyphicon glyphicon-chevron-left"></span>  Previous</button>
+			<select name="list-topic" id="list-topic">
+				<option value="Contracts">1. Contracts - Hợp đồng</option>
+				<option value="Marketing">2. Marketing - Tiếp thị</option>
+				<option value="Warranties">3. Warranties - Bảo hành</option>
+				<option value="Business Planning">4. Business Planning - Kế hoạch kinh doang</option>
+				<option value="Conferences">5. Conferences - Hội nghị</option>
+				<option value="Computers and Internet">6. Computers and Internet - Máy tính và mạng máy tính </option>
+				<option value="Office Technology">7. Office Technology - Công nghệ văn phòng</option>
+				<option value="Office Procedures">8. Office Procedures - Thủ tục văn phòng</option>
+				<option value="Electronics">9. Electronics - Thiết bị điện tử</option>
+				<option value="Correspondence">10. Correspondence - Thư tín</option>
+				<option value="Job And Recruitment">11. Job And Recruitment - Công việc và tuyển dụng</option>
+				<option value="Apply and Interviewing">12. Apply and Interviewing - Áp dụng và phỏng vấn</option>
+				<option value="Hiring and Training">13. Hiring and Training - Tuyển dụng và đào tạo</option>
+				<option value="Salaries And Benefits">14. Salaries And Benefits - Lương và lợi ích</option>
+				<option value="Promotion">15. Promotion - Khuyễn mãi</option>
+				<option value="Shopping">16. Shopping - mua sắm</option>
+				<option value="Order Supplies">17. Order Supplies - Đặt mua</option>
+				<option value="Shipping">18. Shipping - Đang chuyển hàng</option>
+				<option value="Invoices">19. Invoices - Hóa đơn</option>
+				<option value="Inventory">20. Inventory - Hàng tồn kho</option>
+				<option value="Banking">21. Banking - Ngân hàng</option>
+				<option value="Accounting">22. Accounting - Kế toán</option>
+				<option value="Investments">23. Investments - Đầu tư</option>
+				<option value="Taxes">24. Taxes - Thuế</option>
+			</select>
+			<button type="button" class="btn btn-success button-next">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
+		</div>
+		<!-- tiêu đề -->
 		<div align="center">
 			<h3 class="tu">Bài 1: Contracts - Hợp đồng</h3>
 		</div>
-		<iframe width="500" height="320" src="https://www.youtube.com/embed/drdFH6ONKVM" frameborder="0" allowfullscreen="" class="vid"></iframe>
-		<div class="container-fluid">
+		<!-- youtube -->
+		<div align="center"><iframe width="500" height="320" src="https://www.youtube.com/embed/drdFH6ONKVM" frameborder="0" allowfullscreen="" class="vid"></iframe></div>
+
+		<!-- bắt đầu bài học -->
+		<div class="container-fluid" id="tags-word">
 		  <div class="row">
-		    <div class="col-sm-12" style="margin-top: 40px;margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-top: 40px;margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="abide by" title="abide by" src="image/contract/abide_by.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">abide by </span>
-			    			<span style="color: red">/ə'baid/</span>
+			    			<span class="word">abide by </span>
+			    			<span class="spelling">/ə'baid/</span>
 			    			<p>Giải thích: to accept and act according to a law, an agreement</p>
 							<p>Từ loại: (v): tôn trọng, tuân theo, giữ (lời)</p>
 							<p>Ví dụ: The two parties agreed to abide by the judge's decision</p>
@@ -85,14 +99,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="abide by" title="abide by" src="image/contract/agreement.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">agreement </span>
-			    			<span style="color: red"> /ə'gri:mənt/</span>
+			    			<span class="word">agreement </span>
+			    			<span class="spelling"> /ə'gri:mənt/</span>
 			    			<p>Giải thích: an arrangement, a promise or a contract made with somebody</p>
 							<p>Từ loại: (v):  (n): hợp đồng, giao kèo, sự đồng ý/thỏa thuận với nhau</p>
 							<p>Ví dụ:  According to the agreement, the caterer will also supply the flowers for the event</p>
@@ -104,14 +118,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="abide by" title="abide by" src="image/contract/assurance.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">assurance</span>
-			    			<span style="color: red">/ə'ʃuərəns/</span>
+			    			<span class="word">assurance</span>
+			    			<span class="spelling">/ə'ʃuərəns/</span>
 			    			<p>Giải thích: a statement that something will certainly be true or will certainly happen</p>
 							<p>Từ loại: (n): sự cam đoan, bảo đảm, chắc chắn; sự tin chắc, tự tin</p>
 							<p>Ví dụ: The sales associate gave his assurance that the missing keyboard would be replaced the next day.</p>
@@ -123,14 +137,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="abide by" title="abide by" src="image/contract/cancellation.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">cancellation </span>
-			    			<span style="color: red">/,kænse'leiʃn/</span>
+			    			<span class="word">cancellation </span>
+			    			<span class="spelling">/,kænse'leiʃn/</span>
 			    			<p>Giải thích: a decision to stop something that has already been arranged from happening</p>
 							<p>Từ loại: (n): sự bãi bỏ, hủy bỏ</p>
 							<p>Ví dụ: The cancelation of her flight caused her problems for the rest of the week</p>
@@ -142,14 +156,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="determine" title="abide by" src="image/contract/determine.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">determine </span>
-			    			<span style="color: red"> /di'tə:min/</span>
+			    			<span  class="word">determine </span>
+			    			<span class="spelling"> /di'tə:min/</span>
 			    			<p>Giải thích:  to discover the facts about something</p>
 							<p>Từ loại:(v): quyết định, xác định, định rõ; quyết tâm, kiên quyết</p>
 							<p>Ví dụ: After reading the contract, I was still unable to detemine if our company was liable for back wages.</p>
@@ -161,14 +175,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="egage" title="abide by" src="image/contract/engage.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">egage </span>
-			    			<span style="color: red">/in'geidʤ/</span>
+			    			<span class="word" >egage </span>
+			    			<span class="spelling" >/in'geidʤ/</span>
 			    			<p>Giải thích: to become involved in, to participate</p>
 							<p>Từ loại: (v)Tham gia, cam kết, (n)sự hứa hẹn, hứa hôn</p>
 							<p>Ví dụ: He engaged us in a fascinating discussion about current business law</p>
@@ -180,14 +194,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="establish" title="abide by" src="image/contract/establish.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">establish</span>
-			    			<span style="color: red"> /is'tæbliʃ/</span>
+			    			<span class="word" >establish</span>
+			    			<span class="spelling" > /is'tæbliʃ/</span>
 			    			<p>Giải thích:  to start or create an organization, a system</p>
 							<p>Từ loại: (v): thiết lập, thành lập; xác minh, chứng minh, củng cố</p>
 							<p>Ví dụ: The merger of the two company established a powerful new corporation</p>
@@ -199,14 +213,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="obligate" title="abide by" src="image/contract/obligate.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">obligate</span>
-			    			<span style="color: red"> /'ɔbligeit/</span>
+			    			<span class="word" >obligate</span>
+			    			<span class="spelling" > /'ɔbligeit/</span>
 			    			<p>Giải thích:  to bind legally or morally</p>
 							<p>Từ loại:  (v): bắt buộc, ép buộc</p>
 							<p>Ví dụ: The contractor was obligated by the contract to work 40 hours a week.</p>
@@ -218,14 +232,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="party" title="abide by" src="image/contract/party.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">party </span>
-			    			<span style="color: red">/'pɑ:ti/</span>
+			    			<span class="word" >party </span>
+			    			<span class="spelling" >/'pɑ:ti/</span>
 			    			<p>Giải thích: one of the people or groups of people involved in a legal agreemen</p>
 							<p>Từ loại:  (n): đảng, phái, đội, nhóm; người tham dự/tham gia; buổi liên hoan, buổi tiệc</p>
 							<p>Ví dụ:The parties agreed to settlement in their contract dispute.</p>
@@ -237,14 +251,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="provision " title="abide by" src="image/contract/provision.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">provision</span>
-			    			<span style="color: red">/provision/</span>
+			    			<span class="word">provision</span>
+			    			<span class="spelling">/provision/</span>
 			    			<p>Giải thích: a condition or an arrangement in a legal document</p>
 							<p>Từ loại: (n): sự dự liệu, dự trữ, dự phòng, cung cấp; điều khoản</p>
 							<p>Ví dụ: The father made provision for his children through his will.</p>
@@ -256,14 +270,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="resolve " title="abide by" src="image/contract/resolve.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">resolve </span>
-			    			<span style="color: red"> /ri'zɔlv/</span>
+			    			<span class="word" >resolve </span>
+			    			<span class="spelling" > /ri'zɔlv/</span>
 			    			<p>Giải thích:to find an acceptable solution to a problem</p>
 							<p>Từ loại:  (v, n): (v) giải quyết, (n) sự kiên quyết / sự tin chắc</p>
 							<p>Ví dụ: The manager resolved to clean out all the files at the end of the week.</p>
@@ -275,14 +289,14 @@
 			    	</div>
 			    </div>
 		    </div>
-		    <div class="col-sm-12" style="margin-bottom: 40px;background-color: #ffffff;">
+		    <div class="col-sm-12" style="margin-bottom: 30px;background-color: #ffffff;">
 		    	<div class="flex-container">
 			    	<div class="hinhanh">
 			    		<img class="img-responsive img_left" alt="specific " title="abide by" src="image/contract/specific.jpg" style="width: 300px; height: 200px;">
 			    	</div>
 			    	<div class="noidung">
-			    			<span style="color: blue">specific</span>
-			    			<span style="color: red">/spi'sifik/</span>
+			    			<span class="word" >specific</span>
+			    			<span class="spelling" >/spi'sifik/</span>
 			    			<p>Giải thích:detailed abd exact</p>
 							<p>Từ loại:(adj): riêng biệt, cụ thể, đặc trưng; rõ ràng, rành mạch</p>
 							<p>Ví dụ:The customer's specific complaint was not addressed in his e-mail.</p>
@@ -296,6 +310,48 @@
 		    </div>
 		  </div>
 		</div>
+		<!-- button ôn tập -->
+		<div align="center">
+			<button class="btn btn-primary btn-lg"
+			>Ôn tập</button>
+		</div>
+		<!-- ------drop down list footer--- -->
+		<div class="drop-down-list-topic" align="center" id="list-bottom">
+			<button  type="button" class="btn btn-success button-previous"><span class="glyphicon glyphicon-chevron-left"></span>  Previous</button>
+			<select name="list-topic" id="list-topic">
+				<option value="Contracts">1. Contracts - Hợp đồng</option>
+				<option value="Marketing">2. Marketing - Tiếp thị</option>
+				<option value="Warranties">3. Warranties - Bảo hành</option>
+				<option value="Business Planning">4. Business Planning - Kế hoạch kinh doang</option>
+				<option value="Conferences">5. Conferences - Hội nghị</option>
+				<option value="Computers and Internet">6. Computers and Internet - Máy tính và mạng máy tính </option>
+				<option value="Office Technology">7. Office Technology - Công nghệ văn phòng</option>
+				<option value="Office Procedures">8. Office Procedures - Thủ tục văn phòng</option>
+				<option value="Electronics">9. Electronics - Thiết bị điện tử</option>
+				<option value="Correspondence">10. Correspondence - Thư tín</option>
+				<option value="Job And Recruitment">11. Job And Recruitment - Công việc và tuyển dụng</option>
+				<option value="Apply and Interviewing">12. Apply and Interviewing - Áp dụng và phỏng vấn</option>
+				<option value="Hiring and Training">13. Hiring and Training - Tuyển dụng và đào tạo</option>
+				<option value="Salaries And Benefits">14. Salaries And Benefits - Lương và lợi ích</option>
+				<option value="Promotion">15. Promotion - Khuyễn mãi</option>
+				<option value="Shopping">16. Shopping - mua sắm</option>
+				<option value="Order Supplies">17. Order Supplies - Đặt mua</option>
+				<option value="Shipping">18. Shipping - Đang chuyển hàng</option>
+				<option value="Invoices">19. Invoices - Hóa đơn</option>
+				<option value="Inventory">20. Inventory - Hàng tồn kho</option>
+				<option value="Banking">21. Banking - Ngân hàng</option>
+				<option value="Accounting">22. Accounting - Kế toán</option>
+				<option value="Investments">23. Investments - Đầu tư</option>
+				<option value="Taxes">24. Taxes - Thuế</option>
+			</select>
+			<button type="button" class="btn btn-success button-next">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
+		</div>
+		<!-- ----foooter---- -->
+		<div id="footer">
+		<footer class="container-fluid text-center">
+  			<p>Copyright © 2019 · www.toeicfun.com</p>
+		</footer>
+	</div>
 	</div>
 </body>
 </html>
