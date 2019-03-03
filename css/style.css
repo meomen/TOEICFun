@@ -13,6 +13,7 @@ body {
 #content{
 	width: auto;
 	background-color: white;
+	border-radius: 15px;
 }
 #container{
 	width: 100%;
@@ -55,6 +56,10 @@ footer p {
 }
 #slideshow {
 	margin-top: 83px;
+}
+.carousel {
+	border-radius: 15px 15px 0px 0px;
+	overflow: hidden;
 }
 .line-w-45px {
 		width: 100%;
