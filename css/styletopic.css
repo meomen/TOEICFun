@@ -40,13 +40,17 @@ select {
 /*---Phần từ và phiên âm----*/
 .word {
 	font-size: 1.3em;
-	font-style: bold;
+	font-weight: bold;
 	color: blue;
 }
 .spelling {
 	margin-left: 0.5em;
 	color: #d63031;
 	font-style: italic;
+	font-weight: bold;
+}
+.bold {
+	font-weight:bold;
 }
 /*-----các thẻ từ----*/
 #tags-word {
@@ -62,6 +66,7 @@ select {
 	width:55%;
 	height: auto;
 	float: left;
+	font-weight: normal;
 }
 .flex-container {	
 	background-color: white;
