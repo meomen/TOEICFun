@@ -12,7 +12,7 @@ body {
 }
 #content{
 	width: auto;
-	background-color: white;
+	background-color: #ffffff;
 	border-radius: 15px;
 }
 #container{
@@ -66,7 +66,7 @@ footer p {
 		height: 1px;
 		background-color: #d2d2d2;
 	}
-.navbar .container-fluid .navbar-header .navbar-brand {
+/*.navbar .container-fluid .navbar-header .navbar-brand {
 	margin-left: 32px;
 }
 .navbar-nav>li>a {
@@ -78,7 +78,7 @@ footer p {
 	position: relative;
     display: block;
     padding: 25px 47px;
-}
+}*/
 .navbar-inverse .navbar-nav>li>a {
     
 }
